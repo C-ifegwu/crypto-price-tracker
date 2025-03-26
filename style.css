@@ -1,25 +1,74 @@
-/* Basic styling for the Crypto Price Tracker */
+/* Global styling */
 body {
-    font-family: Arial, sans-serif;
-    background: #f9f9f9;
-    color: #333;
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  header, footer {
-    margin-bottom: 20px;
-  }
-  
-  input, button {
-    padding: 10px;
-    margin: 5px;
-    font-size: 16px;
-  }
-  
-  #result {
-    margin-top: 20px;
-    font-size: 20px;
-    color: #0077cc;
-  }  
+  font-family: 'Arial', sans-serif;
+  background: #121212; /* Dark background */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin: 20px 0;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+  background: #333;
+  color: #fff;
+}
+
+button {
+  padding: 10px 15px;
+  background: #ff9800;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #e68900;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.success {
+  color: #4CAF50; /* Green for success */
+}
+
+.error {
+  color: #FF5733; /* Red for errors */
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #bbb;
+}
