@@ -19,3 +19,4 @@ A practical web application that fetches real-time cryptocurrency prices using t
    ```bash
    git clone https://github.com/c-ifegwu/crypto-price-tracker.git
    cd crypto-price-tracker
+lINK TO LOAD BALANCER: http://getsymphony.tech/   
